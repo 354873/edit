@@ -1,18 +1,14 @@
-.bg_pattern {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
+
+
+.pat {
   height: 100vh;
-  background-color: #ffe9a7;
-  opacity: 0.4;
-  z-index: -1;
-}
-.Diagonal_v2 {
-  background: repeating-linear-gradient( -45deg, #ffc107, #ffc107 10px, #ffe9a7 10px, #ffe9a7 50px );
+  background-color: #edfeff;
+  opacity: 1;
+  background-image: repeating-radial-gradient(
+      circle at 0 0,
+      transparent 0,
+      #edfeff 16px
+    ),
+    repeating-linear-gradient(#1981f755, #1981f7);
 }
 
-.btn--orange,
-h1 {
-  border-bottom: 3px solid #000;
-}
